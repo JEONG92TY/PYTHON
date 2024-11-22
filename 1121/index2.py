@@ -110,3 +110,17 @@ s2 = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 print(s2)
 print(set(s2))
 '''
+
+s1 = {1, 2, 3, 3, 4}
+print(s1)
+s1.add(5)
+print(s1)
+s1.update({6, 7, 8, 9, 10})
+print(s1)
+s1.remove(1)
+print(s1)
+# s1.remove(11) 없는 요소 제거 시, 오류
+s1.discard(11)
+print(s1)
+s1.clear()
+print(s1)

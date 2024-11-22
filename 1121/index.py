@@ -85,7 +85,6 @@ a = "12.34"
 print(a.isdecimal())
 print(a.isdigit())
 print(a.isnumeric())
-'''
 
 print("이름을 입력하세요")
 a = input()
@@ -103,3 +102,4 @@ c = input()
 d = int(c)-int(b)
 text1 = ("올해는 {0}년, {1}님의 나이는 {2}세 입니다.").format(c,a,d)
 print(text1)
+'''

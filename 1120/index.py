@@ -67,4 +67,5 @@ print(a or b)
 
 x = 3
 a = x%2
+print(a)
 print("True면 짝수, False면 홀수 : ", a == 0 )
