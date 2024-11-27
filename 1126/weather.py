@@ -1,7 +1,7 @@
 weather_data = [
     ["2024-11-20", "서울", 15.2, 0.0],
     ["2024-11-20", "부산", 18.4, 0.0],
-    ["2024-11-21", "서울", 10.5, 2.3],
+    ["2024-11-21", "서울", 10.5, 1.0],
     ["2024-11-21", "부산", 14.6, 1.2],
     ["2024-11-22", "서울", 8.3, 0.0],
     ["2024-11-22", "부산", 12.0, 0.0]
@@ -12,9 +12,10 @@ def city_list() :
     for i in range (len(weather_data)) :
         init = weather_data[i][1]
         list.append(init)
-        i =+ 1
+        #i =+ 1
     return list
 
+print(city_list())
 
 def ave_tem(city) :
     if city in city_list() :
@@ -77,7 +78,7 @@ def data_list() :
     i = 0
     for i in range(0, len(weather_data)) :
         print(f"날짜 : {weather_data[i][0]}, 도시 : {weather_data[i][1]}, 기온 : {weather_data[i][2]}, 강수량 : {weather_data[i][3]}")
-        i += 1
+       # i += 1
     print("")
 
 print("\n"
@@ -91,17 +92,6 @@ print("\n"
       "6. 종료 --- 정태영 ""\n"
       "\n"
       "")
-
-'''
-weather_data = [
-    ["2024-11-20", "서울", 15.2, 0.0],
-    ["2024-11-20", "부산", 18.4, 0.0],
-    ["2024-11-21", "서울", 10.5, 2.3],
-    ["2024-11-21", "부산", 14.6, 1.2],
-    ["2024-11-22", "서울", 8.3, 0.0],
-    ["2024-11-22", "부산", 12.0, 0.0]
-    ]
-'''
 
 while True :
     num = input("원하는 기능의 번호를 입력하세요 : ")
