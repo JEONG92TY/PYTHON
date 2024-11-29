@@ -103,8 +103,10 @@ hello2 = lambda : print("반갑습니다")
 call(hello)
 call(hello2)
 '''
+'''
 num = [1,2,3,4,5]
 square = map(lambda x : x**3, num)
 print(list(square))
 even = filter(lambda x : x%2==0, num)
 print(list(even))
+'''
