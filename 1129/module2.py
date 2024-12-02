@@ -88,6 +88,7 @@ print(dir.read())
 #os.rmdir("test")
 print(os.environ.get("PATH"))
 '''
+'''
 import json
 
 data = {
@@ -101,3 +102,4 @@ print(json_str)
 
 json_obj = json.loads(json_str)
 print(json_obj)
+'''

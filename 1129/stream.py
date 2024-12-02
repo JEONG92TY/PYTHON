@@ -19,8 +19,10 @@ with open("user_txt", "a", encoding="utf-8") as file :
         file.write(line + "\n")
 print("사용자 입력이 파일에 저장되었습니다.")
 '''
+'''
 with open("user_txt", "r", encoding="utf-8") as file :
     print(file.read())
 
 with open("user_txt", "r", encoding="utf-8") as file :
     print(file.readlines())
+'''
