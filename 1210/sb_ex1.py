@@ -2,7 +2,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 penguins = sns.load_dataset('penguins')
-#print(penguins.head())
+
 '''
 result1 = penguins.groupby("species").agg({
     "body_mass_g" : "mean"
@@ -21,5 +21,7 @@ sns.scatterplot(data=penguins, x="bill_length_mm",
 plt.show()
 '''
 
+'''
 sns.violinplot(x=penguins["island"], y=penguins["body_mass_g"])
 plt.show()
+'''
